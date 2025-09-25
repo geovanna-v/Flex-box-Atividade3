@@ -1,0 +1,36 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color:black;
+}
+
+.conteudo{
+    background-color: gray;
+    color: yellowgreen;
+}
+.cabecalho{
+    background-color: #808080;
+    text-align: center;
+}
+
+.titulo{
+    color: greenyellow;
+    font-style: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: rgb(231, 138, 153);
+}
+
+.conteudo > p {
+    color: #E4005A;
+    size: 42px;
+}
+
+.conteudo > p:nth-of-type(4){
+    color: darkcyan;
+    text-decoration: underline;
+}
